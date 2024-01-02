@@ -39,5 +39,24 @@ set (10%)
 The model is train for 100 epochs with an early stopper of patience 10. 
 After the trainning we got a MSE of 1.14 for the class PPV and a MSE of 2.57
 for the class frequency(performances are mesured on the testset).
+
+# Run
+
+- Install all the requirements
+
+```
+./install.sh
+```
+
+- Change directory to the source code
+
+```
+cd src
+```
+- Train and evaluate the model
+
+```
+py main.py
+```
  
 
