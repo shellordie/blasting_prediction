@@ -32,3 +32,12 @@ due to the unavailability of the original dataset use in this paper ,  I use a s
 
 ![frequency](rsc/f.PNG)
 
+The dataset is dived into training set(70%),a validation set (30%) and testing
+set (10%)
+
+# Experimentation and Result
+The model is train for 100 epochs with an early stopper of patience 10. 
+After the trainning we got a MSE of 1.14 for the class PPV and a MSE of 2.57
+for the class frequency(performances are mesured on the testset).
+ 
+
