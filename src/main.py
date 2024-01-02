@@ -43,7 +43,7 @@ class iron_grade_net(nn.Module):
 
 if __name__=="__main__":
     config={"data":r"./data/ore_grade_data.csv",
-            "model_name":"ore_grade_net",
+            "model_name":"blasting_net",
             "patience":10,
             "epoch":100,
             "min-delta":20,
